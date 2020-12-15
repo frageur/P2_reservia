@@ -569,6 +569,7 @@ footer a
     .navigation a
     {
         margin-bottom: 1em;
+        margin-left: 10px;
     }
     .liens-menu
     {
@@ -580,7 +581,7 @@ footer a
     {
         width: 100%;
         text-align: center;
-        display: inline;
+        display: flex;
     }
     .liens-menu li
     {
@@ -616,6 +617,7 @@ footer a
         position: absolute;
         right: 0;
         top: 3em;
+        margin-right: 10px;
     }
 
     /* ///////////////// SECTION RECHERCHE (filtres etc.) \\\\\\\\\\\\\\\\\\\\\\\ */
