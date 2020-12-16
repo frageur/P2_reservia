@@ -589,7 +589,7 @@ footer a
         padding-right: 45px;
         padding-left: 45px;
         flex-wrap: nowrap;
-        width: 50%;
+        width: 100%;
     }
     .topBlue
     {
@@ -671,6 +671,7 @@ footer a
     {
         display: flex;
         align-items: center;
+        width: 100%;
     }
     .indication
     {
@@ -1024,6 +1025,297 @@ footer a
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* /////////////tablette \\\\\\\\\\\\\ */
+
+@media all and (max-width: 1200px)
+{
+   /* ///////////////// SECTION HEBERGEMENT ET POPULAIRE \\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+   .filtres
+    {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+    .filtres p
+    {
+        margin-right: 20PX;
+        margin-bottom: 10px;
+       
+    }
+
+   .infor
+   {
+        margin-bottom: 30px;
+   }
+   #container-hebergement-populaire
+   {
+       display: flex;
+       margin-bottom: 100px;
+       padding: 0em;
+       flex-direction: column;
+       width: 100%;
+   }
+   /* //////////////// HEBERGEMENT \\\\\\\\\\\\\\\\\\\ */
+   .hebergement
+   {
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: column;
+       background-color: white;
+       border-radius: 10px;
+       margin-right: 0em;
+       width: 100%;
+       order: 2;
+   }
+   .titleherbegement
+   {
+       width: 100%;
+       margin-bottom: 30px;
+   }
+   .container-hebergement
+   {
+       display: flex;
+       margin: 1.5%;
+       justify-content: center;
+       border: 4px solid white;
+       border-radius: 15px;
+       flex-direction: column;
+       flex-wrap: wrap;
+       background-color: white;
+       width: 100%;
+       margin-left: 0;
+   }
+   .hebergement-information
+   {
+       display: flex;
+       flex-direction: column;
+       position: relative;
+       padding: 0.5em;
+       height: 80px;
+   }
+   .hebergement-information .stars
+   {
+       position: absolute;
+       bottom: 0;
+   }
+   .monimageh
+   {
+       background-repeat: no-repeat;
+       border-radius: 15px 15px 0 0;
+       height: 100px;
+   }
+   .auberge-la-cannebière
+   {
+       background-image: url(images/hebergements/4_small/cannebiere.jpg);
+   }
+   .hotel-du-port
+   {
+       background-image: url(images/hebergements/4_small/duport.jpg);
+   }
+   .hotel-les-mouettes
+   {
+       background-image: url(images/hebergements/4_small/lesmouettes.jpg);
+   }
+   .auberge-le-panier
+   {
+       background-image: url(images/hebergements/4_small/lamer.jpg);
+   }
+   .hotel-de-la-mer
+   {
+       background-image: url(images/hebergements/4_small/lepanier.jpg);
+   }
+   .hotel-chez-amina
+   {
+       background-image: url(images/hebergements/4_small/amina.jpg);
+   }
+   .afficherPlus
+   {
+       width: 100%;
+   }
+   .container-hebergement img
+   {
+       border-radius: 10px;
+       width: 100%;
+   }
+
+   .stars img
+   {
+       width : 15px;
+       height : 15px;
+   }
+
+   /* //////////////// POPULAIRE \\\\\\\\\\\\\\\\\\\ */
+   .populaire
+   {
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       background-color: #f2f2f2;
+       border-radius: 10px;
+       width: 100%;
+       order: 1;
+       padding-top: 2em;
+       padding-bottom: 1em;
+   }
+   .populaireLogo
+   {
+       display: flex;
+       align-items: center;
+       font-weight: bold;
+       padding-bottom: 2em;
+       margin-top: 0;
+       justify-content: space-between;
+   }
+
+   .monimagep
+   {
+       background-repeat: no-repeat;
+       border-radius: 15px 0px 0px 15px;
+       width: 100%;
+       max-width: 150px;
+       min-height: 100%;
+   }
+   .hotel-le-soleil-du-matin
+   {
+       background-image: url(images/hebergements/4_small/dumatin.jpg);
+       background-position: center;
+       background-size: cover;
+   }
+   .au-coeur-de-leau
+   {
+       background-image: url(images/hebergements/4_small/aucoeurdeleau.jpg);
+       background-position: center;
+       background-size: cover;
+       object-fit: cover;
+   }
+   .hotel-tout-bleu-et-blanc
+   {
+       background-image: url(images/hebergements/4_small/bleuetblanc.jpg);
+       background-position: center;
+       background-size: cover;
+       object-fit: cover;
+   }
+   .container-populaire
+   {
+       display: flex;
+       flex: 1 1 150px;
+       border: 4px solid white;
+       border-radius: 15px;
+       background-color: white;
+       margin-bottom:1.5em;
+       width: 100%;
+   }
+   .populaire-information
+   {
+       display: flex;
+       flex-wrap: wrap;
+       padding: 1em;
+       flex-direction: column;
+       position: relative;
+       padding-top: 0;
+   }
+   .populaire-information .stars
+   {
+       padding-bottom: 0.5em;
+       position: absolute;
+       bottom: 0;
+   }
+
+   /* ////////// ACTIVITES \\\\\\\\\\\ */
+   #activite
+   {
+       margin-bottom: 100px;
+       padding: 0;
+   }
+   .big-container-activite
+   {
+       flex-direction: column;
+       border-radius: 10px;
+       padding: 0;
+
+   }
+   .titleactivite
+   {
+       width: 100%;
+       margin-bottom: 20px;
+       padding-left: 1em;
+   }
+   .container-activite
+   {
+       box-shadow: 0 5px 5px rgb(207, 207, 207);
+       margin: 1em;
+       border-radius: 15px;
+       background-color: white;
+       height: 180px;
+   }
+   .double-container
+   {
+       flex: 1 1 150px;
+   }
+   .activite-information
+   {
+       flex-direction: column;
+       padding: 1em;
+   }
+   .image-activite
+   {
+       background-repeat: no-repeat;
+       border-radius: 15px 15px 0 0;
+   }
+   .vieux-port
+   {
+       background-image: url(images/activites/4_small/vieuxport.jpg);
+   }
+   .fort-de-pomegues
+   {
+       background-image: url(images/activites/4_small/fortdepomegues.jpg);
+   }
+   .iles-du-frioul
+   {
+       background-image: url(images/activites/4_small/ilesdufrioul.jpg);
+   }
+   .parc-national
+   {
+       background-image: url(images/activites/4_small/parcnational.jpg);
+   }
+   .notre-dame
+   {
+       background-image: url(images/activites/4_small/notredamedelagarde.jpg);
+   }
+   .parc-longchamp
+   {
+       background-image: url(images/activites/4_small/parclongchamp.jpg);
+   }
+   .container-activite img
+   {
+       border-radius: 10px;
+       width: 100%;
+   }
+
+}
+
+
 @media all and (min-width: 1750px)
 {
     .main-content
