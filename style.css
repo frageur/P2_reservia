@@ -586,8 +586,6 @@ footer a
     .liens-menu li
     {
         margin: 0;
-        padding-right: 45px;
-        padding-left: 45px;
         flex-wrap: nowrap;
         width: 100%;
     }
