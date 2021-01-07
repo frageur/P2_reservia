@@ -457,12 +457,14 @@ input
     background-image: url(images/activites/2_large/fort-de-pomegues.jpg);
     background-position: center;
     background-size: cover;
+    height: 160px;
 }
 .iles-du-frioul
 {
     background-image: url(images/activites/2_large/îles-du-frioul.jpg);
     background-position: center;
     background-size: cover;
+    height: 60px;
 }
 .parc-national
 {
@@ -475,12 +477,14 @@ input
     background-image: url(images/activites/2_large/notre-dame.jpg);
     background-position: center;
     background-size: cover;
+    height: 80px;
 }
 .parc-longchamp
 {
     background-image: url(images/activites/2_large/parc-longchamp.jpg);
     background-position: center;
     background-size: cover;
+    height: 150px;
 }
 .container-activite img
 {
